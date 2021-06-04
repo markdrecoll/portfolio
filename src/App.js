@@ -1,23 +1,80 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Project from "./components/Project";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <Project
+                projectTitle={"drinkUpp"}
+                projectSubtitle = {"Search for Drinks Based on Ingredient"}
+                codeUrl = {"https://github.com/markdrecoll/drinkUpp"}
+                deployedLink = {"https://markdrecoll.github.io/drinkUpp/"}
+                projectThumbnail = {"/assets/images/drinkUpp_screenshot.png"}
+                projectThumbnailAlt = {"drinkUpp App"}
+              />
+            </div>
+            <div class="col-sm">
+              <Project
+                projectTitle={"drinkUpp"}
+                projectSubtitle = {"Search for Drinks Based on Ingredient"}
+                codeUrl = {"https://github.com/markdrecoll/drinkUpp"}
+                deployedLink = {"https://markdrecoll.github.io/drinkUpp/"}
+                projectThumbnail = {"/assets/images/drinkUpp_screenshot.png"}
+                projectThumbnailAlt = {"drinkUpp App"}
+              />
+            </div>
+            <div class="col-sm">
+              <Project
+                projectTitle={"drinkUpp"}
+                projectSubtitle = {"Search for Drinks Based on Ingredient"}
+                codeUrl = {"https://github.com/markdrecoll/drinkUpp"}
+                deployedLink = {"https://markdrecoll.github.io/drinkUpp/"}
+                projectThumbnail = {"/assets/images/drinkUpp_screenshot.png"}
+                projectThumbnailAlt = {"drinkUpp App"}
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <Project
+                projectTitle={"drinkUpp"}
+                projectSubtitle = {"Search for Drinks Based on Ingredient"}
+                codeUrl = {"https://github.com/markdrecoll/drinkUpp"}
+                deployedLink = {"https://markdrecoll.github.io/drinkUpp/"}
+                projectThumbnail = {"/assets/images/drinkUpp_screenshot.png"}
+                projectThumbnailAlt = {"drinkUpp App"}
+              />
+            </div>
+            <div class="col-sm">
+              <Project
+                projectTitle={"drinkUpp"}
+                projectSubtitle = {"Search for Drinks Based on Ingredient"}
+                codeUrl = {"https://github.com/markdrecoll/drinkUpp"}
+                deployedLink = {"https://markdrecoll.github.io/drinkUpp/"}
+                projectThumbnail = {"/assets/images/drinkUpp_screenshot.png"}
+                projectThumbnailAlt = {"drinkUpp App"}
+              />
+            </div>
+            <div class="col-sm">
+              <Project
+                projectTitle={"drinkUpp"}
+                projectSubtitle = {"Search for Drinks Based on Ingredient"}
+                codeUrl = {"https://github.com/markdrecoll/drinkUpp"}
+                deployedLink = {"https://markdrecoll.github.io/drinkUpp/"}
+                projectThumbnail = {"/assets/images/drinkUpp_screenshot.png"}
+                projectThumbnailAlt = {"drinkUpp App"}
+              />
+            </div>
+          </div>
+        </div>
+      <Footer />
     </div>
   );
 }
