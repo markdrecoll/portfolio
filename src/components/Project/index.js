@@ -23,14 +23,14 @@ const Project = (props) => {
     <div>
       <Card>
         <CardBody>
-          <CardTitle tag="h5">{props.projectTitle}</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">{props.projectSubtitle}</CardSubtitle>
+          <CardTitle tag="h3">{props.projectTitle}</CardTitle>
+          <CardSubtitle tag="h6" className="mb-2">{props.projectSubtitle}</CardSubtitle>
         </CardBody>
         <img width="100%" src={props.projectThumbnail} alt={props.projectThumbnailAlt} />
         <CardBody>
           {/* <CardText>Example Text</CardText> */}
-          <CardLink href={props.deployedLink}>Live Demo</CardLink>
-          <CardLink href={props.codeUrl}>Github</CardLink>
+          <CardLink href={props.deployedLink} className="btn btn-info">Live Demo</CardLink>
+          <CardLink href={props.codeUrl} className="btn btn-info">Github</CardLink>
         </CardBody>
       </Card>
     </div>

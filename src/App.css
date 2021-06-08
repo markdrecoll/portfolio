@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.card{
+  color:silver;
+  background-color: steelblue;
+}
+
+a{
+  color: black;
+}
+
+.h6{
+  color:silver;
+}
