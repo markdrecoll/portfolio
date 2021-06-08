@@ -1,18 +1,5 @@
 import React from "react";
 import "./style.css";
-
-// function Project(props) {
-//   return (
-//     <div className="project">
-//       <img src={props.projectThumbnail} height="300" width="300" />
-//       <a href={props.codeUrl}>Github</a>
-//       <a href={props.deployedLink}>Live Demo</a>
-      
-//       </div>
-//   );
-// }
-
-// import React from 'react';
 import {
   Card, CardText, CardBody, CardLink,
   CardTitle, CardSubtitle
@@ -36,13 +23,5 @@ const Project = (props) => {
     </div>
   );
 };
-
-// export default Example;
-
-
-
-
-
-
 
 export default Project;

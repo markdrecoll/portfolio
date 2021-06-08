@@ -16,7 +16,7 @@ function App() {
                 projectSubtitle = {"Search for Drinks Based on Ingredient"}
                 codeUrl = {"https://github.com/markdrecoll/drinkUpp"}
                 deployedLink = {"https://markdrecoll.github.io/drinkUpp/"}
-                projectThumbnail = {"/assets/images/drinkUpp_screenshot.png"}
+                projectThumbnail = {"/assets/imagesdrinkUpp_screenshot.PNG"}
                 projectThumbnailAlt = {"drinkUpp App"}
               />
             </div>
@@ -25,7 +25,7 @@ function App() {
                 projectTitle={"User Directory"}
                 projectSubtitle = {"Search and Filter Users"}
                 codeUrl = {"https://github.com/markdrecoll/userdirectory"}
-                deployedLink = {"https://markdrecoll.github.io/userdirectory/"}
+                deployedLink = {"https://markdrecoll.github.io/portfolio/assets/images/user_directory_screenshot.PNG"}
                 projectThumbnail = {"/assets/images/user_directory_screenshot.png"}
                 projectThumbnailAlt = {"User Directory App"}
               />
@@ -36,7 +36,7 @@ function App() {
                 projectSubtitle = {"Manage a Budget Database"}
                 codeUrl = {"https://github.com/markdrecoll/progressiveBudgetTracker"}
                 deployedLink = {"https://damp-everglades-37886.herokuapp.com/"}
-                projectThumbnail = {"/assets/images/budget_tracker_screenshot.PNG"}
+                projectThumbnail = {"assets/images/budget_tracker_screenshot.PNG"}
                 projectThumbnailAlt = {"Budget Tracker App"}
               />
             </div>
