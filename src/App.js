@@ -25,7 +25,7 @@ function App() {
                 projectTitle={"User Directory"}
                 projectSubtitle = {"Search and Filter Users"}
                 codeUrl = {"https://github.com/markdrecoll/userdirectory"}
-                deployedLink = {"https://markdrecoll.github.io/portfolio/assets/images/user_directory_screenshot.PNG"}
+                deployedLink = {"https://markdrecoll.github.io/portfolio/"}
                 projectThumbnail = {"assets/images/user_directory_screenshot.PNG"}
                 projectThumbnailAlt = {"User Directory App"}
               />
