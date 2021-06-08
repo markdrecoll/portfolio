@@ -16,7 +16,7 @@ function App() {
                 projectSubtitle = {"Search for Drinks Based on Ingredient"}
                 codeUrl = {"https://github.com/markdrecoll/drinkUpp"}
                 deployedLink = {"https://markdrecoll.github.io/drinkUpp/"}
-                projectThumbnail = {"/assets/images/drinkUpp_screenshot.PNG"}
+                projectThumbnail = {"assets/images/drinkUpp_screenshot.PNG"}
                 projectThumbnailAlt = {"drinkUpp App"}
               />
             </div>
@@ -26,7 +26,7 @@ function App() {
                 projectSubtitle = {"Search and Filter Users"}
                 codeUrl = {"https://github.com/markdrecoll/userdirectory"}
                 deployedLink = {"https://markdrecoll.github.io/portfolio/assets/images/user_directory_screenshot.PNG"}
-                projectThumbnail = {"assets/images/user_directory_screenshot.png"}
+                projectThumbnail = {"assets/images/user_directory_screenshot.PNG"}
                 projectThumbnailAlt = {"User Directory App"}
               />
             </div>
