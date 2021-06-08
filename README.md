@@ -11,4 +11,4 @@ This is a personal portfolio written in React. It displays some of the projects 
 ## Questions
 Email: mark@markdrecoll.com
 ## Screenshot
-![portfolioscreenshot](https://user-images.githubusercontent.com/77694281/121248891-90b78680-c869-11eb-978f-7a241ce5d394.PNG){:height="50%" width="50%"}
+![portfolioscreenshot](https://user-images.githubusercontent.com/77694281/121248891-90b78680-c869-11eb-978f-7a241ce5d394.PNG s=200)
