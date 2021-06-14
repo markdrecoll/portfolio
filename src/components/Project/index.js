@@ -10,10 +10,10 @@ const Project = (props) => {
     <div>
       <Card>
         <CardBody>
-          <CardTitle tag="h3">{props.projectTitle}</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2">{props.projectSubtitle}</CardSubtitle>
+          <CardTitle tag="h5">{props.projectTitle}</CardTitle>
+          <CardSubtitle tag="p" className="mb-2">{props.projectSubtitle}</CardSubtitle>
         </CardBody>
-        <img width="100%" src={props.projectThumbnail} alt={props.projectThumbnailAlt} />
+        <img src={props.projectThumbnail} alt={props.projectThumbnailAlt} />
         <CardBody>
           {/* <CardText>Example Text</CardText> */}
           <CardLink href={props.deployedLink} className="btn btn-info" target="_blank">Live Demo</CardLink>
