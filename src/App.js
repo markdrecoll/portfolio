@@ -16,7 +16,7 @@ function App() {
                 projectSubtitle = {"Create itineraries for Chicago boat attractions."}
                 codeUrl = {"https://github.com/markdrecoll/chicagoboatingapp"}
                 deployedLink = {"https://chicagoboatingapp.herokuapp.com/"}
-                projectThumbnail = {"assets/images/chicagoBoatingApp_Screenshot01.PNG"}
+                projectThumbnail = {"/assets/images/chicagoBoatingApp_Screenshot01.PNG"}
                 projectThumbnailAlt = {"Chicago Boating App"}
               />
             </div>
@@ -26,7 +26,7 @@ function App() {
                 projectSubtitle = {"Search for Drinks Based on Ingredient"}
                 codeUrl = {"https://github.com/markdrecoll/drinkUpp"}
                 deployedLink = {"https://markdrecoll.github.io/drinkUpp/"}
-                projectThumbnail = {"assets/images/drinkUpp_screenshot.PNG"}
+                projectThumbnail = {"/assets/images/drinkUpp_screenshot.PNG"}
                 projectThumbnailAlt = {"drinkUpp App"}
               />
             </div>
