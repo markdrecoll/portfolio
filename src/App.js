@@ -10,6 +10,16 @@ function App() {
       <Header />
         <div class="container">
           <div class="row">
+          <div class="col-sm">
+              <Project
+                projectTitle={"Chicago Boating App"}
+                projectSubtitle = {"Create itineraries for Chicago boat attractions."}
+                codeUrl = {"https://github.com/markdrecoll/chicagoboatingapp"}
+                deployedLink = {"https://chicagoboatingapp.herokuapp.com/"}
+                projectThumbnail = {"assets/images/chicagoBoatingApp_Screenshot01.PNG"}
+                projectThumbnailAlt = {"Chicago Boating App"}
+              />
+            </div>
             <div class="col-sm">
               <Project
                 projectTitle={"drinkUpp"}
@@ -18,6 +28,16 @@ function App() {
                 deployedLink = {"https://markdrecoll.github.io/drinkUpp/"}
                 projectThumbnail = {"assets/images/drinkUpp_screenshot.PNG"}
                 projectThumbnailAlt = {"drinkUpp App"}
+              />
+            </div>
+            <div class="col-sm">
+              <Project
+                projectTitle={"Google Book Search"}
+                projectSubtitle = {"Search for and save books from Google Books API."}
+                codeUrl = {"https://github.com/markdrecoll/googlebooksearch"}
+                deployedLink = {"https://marksgooglebooksearch.herokuapp.com/"}
+                projectThumbnail = {"assets/images/googleBookSearch_screenshot01.PNG"}
+                projectThumbnailAlt = {"Google Book Search App"}
               />
             </div>
             <div class="col-sm">
@@ -32,12 +52,12 @@ function App() {
             </div>
             <div class="col-sm">
               <Project
-                projectTitle={"Budget Tracker"}
-                projectSubtitle = {"Manage a Budget Database"}
-                codeUrl = {"https://github.com/markdrecoll/progressiveBudgetTracker"}
-                deployedLink = {"https://damp-everglades-37886.herokuapp.com/"}
-                projectThumbnail = {"assets/images/budget_tracker_screenshot.PNG"}
-                projectThumbnailAlt = {"Budget Tracker App"}
+                projectTitle={"Expense Tracker"}
+                projectSubtitle = {"Track and display expenses via chart.js."}
+                codeUrl = {"https://github.com/levickane/expensetracker7000"}
+                deployedLink = {"https://expense-tracker-7000.herokuapp.com/"}
+                projectThumbnail = {"assets/images/expenseTracker7000_screenshot01.png"}
+                projectThumbnailAlt = {"Expense Tracker 7000 App"}
               />
             </div>
           </div>
@@ -50,6 +70,16 @@ function App() {
                 deployedLink = {"https://github.com/markdrecoll/teamProfileGenerator"}
                 projectThumbnail = {"assets/images/team_profile_generator_screenshot.PNG"}
                 projectThumbnailAlt = {"Team Generator App"}
+              />
+            </div>
+            <div class="col-sm">
+              <Project
+                projectTitle={"Budget Tracker"}
+                projectSubtitle = {"Manage a Budget Database"}
+                codeUrl = {"https://github.com/markdrecoll/progressiveBudgetTracker"}
+                deployedLink = {"https://damp-everglades-37886.herokuapp.com/"}
+                projectThumbnail = {"assets/images/budget_tracker_screenshot.PNG"}
+                projectThumbnailAlt = {"Budget Tracker App"}
               />
             </div>
             <div class="col-sm">

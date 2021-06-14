@@ -16,8 +16,8 @@ const Project = (props) => {
         <img width="100%" src={props.projectThumbnail} alt={props.projectThumbnailAlt} />
         <CardBody>
           {/* <CardText>Example Text</CardText> */}
-          <CardLink href={props.deployedLink} className="btn btn-info">Live Demo</CardLink>
-          <CardLink href={props.codeUrl} className="btn btn-info">Github</CardLink>
+          <CardLink href={props.deployedLink} className="btn btn-info" target="_blank">Live Demo</CardLink>
+          <CardLink href={props.codeUrl} className="btn btn-info" target="_blank">Github</CardLink>
         </CardBody>
       </Card>
     </div>
