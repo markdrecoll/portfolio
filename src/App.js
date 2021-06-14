@@ -8,15 +8,15 @@ function App() {
   return (
     <div className="App">
       <Header />
-        <div class="container">
-          <div class="row">
-          <div class="col-sm">
+        <div className="container">
+          <div className="row">
+          <div className="col-sm">
               <Project
                 projectTitle={"Chicago Boating App"}
                 projectSubtitle = {"Create itineraries for Chicago boat attractions."}
                 codeUrl = {"https://github.com/markdrecoll/chicagoboatingapp"}
                 deployedLink = {"https://chicagoboatingapp.herokuapp.com/"}
-                projectThumbnail = {"/assets/images/chicagoBoatingApp_Screenshot01.PNG"}
+                projectThumbnail = {process.env.PUBLIC_URL+"/assets/images/chicagoBoatingApp_Screenshot01.PNG"}
                 projectThumbnailAlt = {"Chicago Boating App"}
               />
             </div>
@@ -26,7 +26,7 @@ function App() {
                 projectSubtitle = {"Search for Drinks Based on Ingredient"}
                 codeUrl = {"https://github.com/markdrecoll/drinkUpp"}
                 deployedLink = {"https://markdrecoll.github.io/drinkUpp/"}
-                projectThumbnail = {"/assets/images/drinkUpp_screenshot.PNG"}
+                projectThumbnail = {"assets/images/drinkUpp_screenshot.PNG"}
                 projectThumbnailAlt = {"drinkUpp App"}
               />
             </div>
