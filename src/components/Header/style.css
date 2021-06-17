@@ -2,6 +2,8 @@
     background: #14212A;
     color:#C2C1C3;
     padding:5px;
-    display:flex;
-    justify-content: center;
+  }
+
+  .header a{
+    color:#C2C1C3;
   }
