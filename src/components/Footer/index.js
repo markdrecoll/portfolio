@@ -1,17 +1,32 @@
 import React from "react";
 import "./style.css";
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Container,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  NavbarText
+} from 'reactstrap';
 
 function Footer() {
   return (
-    <footer className="footer">
-      <span>
-          Mark Drecoll | mark@markdrecoll.com | <a href={process.env.PUBLIC_URL
-            +"/assets/files/Mark_Drecoll_Resume.pdf"} target="_blank">Résumé
-            </a> | <a href="https://github.com/markdrecoll" target="_blank">
-              Github</a> | <a href="https://www.linkedin.com/in/markdrecoll/"
-              target="_blank"> LinkedIn</a>
-      </span>
-    </footer>
+    <div className="fixed-bottom">
+      <Navbar color="light" light>
+        <Container className="justify-content-center">
+          <Nav>
+            Mark Drecoll | mark@markdrecoll.com
+          </Nav>
+        </Container>
+      </Navbar>
+    </div>
   );
 }
 
