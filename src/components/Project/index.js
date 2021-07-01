@@ -11,12 +11,12 @@ const Project = (props) => {
       <CardDeck>
         <Card>
           <CardBody>
-            <CardTitle tag="h5">{props.projectTitle}</CardTitle>
-            <CardSubtitle tag="p" className="mb-2">{props.projectSubtitle}</CardSubtitle>
+            <CardTitle tag="h5" className="text-white">{props.projectTitle}</CardTitle>
+            {/* <CardSubtitle tag="p" className="mb-2">{props.projectSubtitle}</CardSubtitle> */}
           </CardBody>
           <img src={props.projectThumbnail} alt={props.projectThumbnailAlt} />
           <CardBody>
-            {/* <CardText>Example Text</CardText> */}
+            <CardText>{props.projectDescription}</CardText>
             <CardLink href={props.deployedLink} className="btn btn-info btn-sm" target="_blank">Live Demo</CardLink>
             <CardLink href={props.codeUrl} className="btn btn-info btn-sm" target="_blank">Github</CardLink>
           </CardBody>
