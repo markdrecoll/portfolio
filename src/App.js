@@ -22,22 +22,22 @@ function App() {
           </div>
           <div className="col-lg-3 col-md-6">
             <Project
+              projectTitle={"React Tetris"}
+              projectDescription={"Tetris created with react and styled components."}
+              codeUrl={"https://github.com/markdrecoll/react-tetris"}
+              deployedLink={"https://markdrecoll.github.io/react-tetris/"}
+              projectThumbnail={process.env.PUBLIC_URL + "/assets/images/react_tetris_thumbnail_01.png"}
+              projectThumbnailAlt={"React Tetris"}
+            />
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <Project
               projectTitle={"drinkUpp"}
               projectDescription={"Search for different cocktails based on ingredients"}
               codeUrl={"https://github.com/markdrecoll/drinkUpp"}
               deployedLink={"https://markdrecoll.github.io/drinkUpp/"}
               projectThumbnail={process.env.PUBLIC_URL + "/assets/images/drinkupp_thumbnail01.png"}
               projectThumbnailAlt={"drinkUpp App"}
-            />
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <Project
-              projectTitle={"Google Book Search"}
-              projectDescription={"Search for and save books from the Google Books API."}
-              codeUrl={"https://github.com/markdrecoll/googlebooksearch"}
-              deployedLink={"https://marksgooglebooksearch.herokuapp.com/"}
-              projectThumbnail={process.env.PUBLIC_URL + "/assets/images/booksearch_thumbnail01.png"}
-              projectThumbnailAlt={"Google Book Search App"}
             />
           </div>
           <div className="col-lg-3 col-md-6">
@@ -51,16 +51,26 @@ function App() {
             />
           </div>
         </div>
-        <div className="row">
+        <div className="row mb-4">
           <div className="col-lg-3 col-md-6">
             <Project
-              projectTitle={"Expense Tracker"}
-              projectDescription={"Track and display user expenses using chart.js."}
-              codeUrl={"https://github.com/levickane/expensetracker7000"}
-              deployedLink={"https://expense-tracker-7000.herokuapp.com/"}
-              projectThumbnail={process.env.PUBLIC_URL + "/assets/images/expensetracker_thumbnail01.png"}
-              projectThumbnailAlt={"Expense Tracker 7000 App"}
+              projectTitle={"Google Book Search"}
+              projectDescription={"Search for and save books from the Google Books API."}
+              codeUrl={"https://github.com/markdrecoll/googlebooksearch"}
+              deployedLink={"https://marksgooglebooksearch.herokuapp.com/"}
+              projectThumbnail={process.env.PUBLIC_URL + "/assets/images/booksearch_thumbnail01.png"}
+              projectThumbnailAlt={"Google Book Search App"}
             />
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <Project
+              projectTitle={"Weather Dashboard"}
+              projectDescription={"View a five day weather forecast for a chosen city."}
+              codeUrl={"https://github.com/markdrecoll/Weather_Dashboard"}
+              deployedLink={"https://markdrecoll.github.io/Weather_Dashboard/"}
+              projectThumbnail={process.env.PUBLIC_URL + "/assets/images/weatherdashboard_thumbnail01.png"}
+              projectThumbnailAlt={"Weather Dashboard App"}
+            />            
           </div>
           <div className="col-lg-3 col-md-6">
             <Project
@@ -74,23 +84,25 @@ function App() {
           </div>
           <div className="col-lg-3 col-md-6">
             <Project
-              projectTitle={"Weather Dashboard"}
-              projectDescription={"View a five day weather forecast for a chosen city."}
-              codeUrl={"https://github.com/markdrecoll/Weather_Dashboard"}
-              deployedLink={"https://markdrecoll.github.io/Weather_Dashboard/"}
-              projectThumbnail={process.env.PUBLIC_URL + "/assets/images/weatherdashboard_thumbnail01.png"}
-              projectThumbnailAlt={"Weather Dashboard App"}
+              projectTitle={"Expense Tracker"}
+              projectDescription={"Track and display user expenses using chart.js."}
+              codeUrl={"https://github.com/levickane/expensetracker7000"}
+              deployedLink={"https://expense-tracker-7000.herokuapp.com/"}
+              projectThumbnail={process.env.PUBLIC_URL + "/assets/images/expensetracker_thumbnail01.png"}
+              projectThumbnailAlt={"Expense Tracker 7000 App"}
             />
           </div>
+        </div>
+        <div className="row mb-4">
           <div className="col-lg-3 col-md-6">
             <Project
-              projectTitle={"Fitness Tracker"}
-              projectDescription={"Record different kinds of workouts and track progress."}
-              codeUrl={"https://github.com/markdrecoll/FitnessTracker"}
-              deployedLink={"https://damp-cliffs-84726.herokuapp.com/"}
-              projectThumbnail={process.env.PUBLIC_URL + "/assets/images/fitnesstracker_thumbnail01.png"}
-              projectThumbnailAlt={"Fitness Tracker App"}
-            />
+                projectTitle={"Fitness Tracker"}
+                projectDescription={"Record different kinds of workouts and track progress."}
+                codeUrl={"https://github.com/markdrecoll/FitnessTracker"}
+                deployedLink={"https://damp-cliffs-84726.herokuapp.com/"}
+                projectThumbnail={process.env.PUBLIC_URL + "/assets/images/fitnesstracker_thumbnail01.png"}
+                projectThumbnailAlt={"Fitness Tracker App"}
+              />
           </div>
         </div>
       </div>
