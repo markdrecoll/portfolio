@@ -7,7 +7,7 @@
 ## Demonstration
 Live Demo: https://markdrecoll.com/
 ## Description
-This is a personal portfolio created using React. It displays some of the projects I have created. It uses reactstrap as a styling framework.
+This is a personal portfolio created using React. It displays some of the projects I have created. It uses reactstrap, a react component library for bootstrap.
 ## Questions
 Email: mark@markdrecoll.com
 ## Screenshot
