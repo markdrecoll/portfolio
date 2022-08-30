@@ -5,7 +5,7 @@
    - [Questions](#Questions)
    - [Screenshot](#Screenshot)
 ## Demonstration
-Live Demo: https://markdrecoll.github.io/portfolio/
+Live Demo: https://markdrecoll.com/
 ## Description
 This is a personal portfolio written in React. It displays some of the projects I have created. It uses Reactstrap as a CSS framework, as well as node.js and express.js. 
 ## Questions
