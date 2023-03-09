@@ -31,7 +31,7 @@ function Header() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href={process.env.PUBLIC_URL + "/assets/files/Mark_Drecoll_Resume.pdf"}
+              <NavLink href={"https://www.markdrecoll.com/assets/files/Mark_Drecoll_Resume.pdf"}
                 target="_blank">Résumé</NavLink>
             </NavItem>
             <NavItem>
